@@ -1,5 +1,0 @@
-[Desktop Entry]
-Name=Invert Scrolling
-Exec=xmodmap -e "pointer = 1 2 3 5 4 7 6 9 8 10 11 12 13"
-Terminal=false
-Type=Application

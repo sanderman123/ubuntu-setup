@@ -1,0 +1,9 @@
+invert scrolling:
+xinput list
+xinput list-props 10 | grep "Scrolling Distance"
+xinput set-prop 10 339 -1, -1, -1 
+
+
+
+
+xinput list-props 10 | grep Scrolling | grep -o -E '[0-9]+' | head -1 | sed -e 's/^0\+//'

@@ -1,5 +1,0 @@
-[Desktop Entry]
-Name=Backslash is backslash instead of insert
-Exec=xmodmap -e "keycode 118 = backslash bar"
-Terminal=false
-Type=Application

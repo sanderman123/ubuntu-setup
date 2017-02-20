@@ -1,5 +1,0 @@
-[Desktop Entry]
-Name=Insert becomes backspace
-Exec=xmodmap -e "keycode 51 = BackSpace"
-Terminal=false
-Type=Application
