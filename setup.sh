@@ -7,6 +7,7 @@ sudo apt-get install terminator
 
 # Git
 sudo apt-get install git
+sudo apt-get install tig
 
 # Albert
 sudo add-apt-repository ppa:nilarimogard/webupd8
@@ -23,6 +24,17 @@ cp autostart/. ~/.config/autostart/
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | zsh
 source ~/.zshrc
 nvm install --lts
+
+# How2
+npm install -g how2
+
+# Nativefier
+npm install nativefier -g  
+nativefier "https://app.gistboxapp.com"
+
+cp images/ico/. ~/.local/share/icons/hicolor/16x16/apps/
+cp images/png/. ~/.local/share/icons/hicolor/128x128/apps/
+cp applications/. ~/.local/share/applications/
 
 # Aliases
 echo '\nalias open=nautilus\n' >> ~/.zshrc

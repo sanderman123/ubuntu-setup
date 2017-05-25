@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Gistbox
+Icon=gistbox
+Exec=/home/sander/Applications/gist-box-linux-x64/gist-box
+Terminal=false
+Categories=Development;Gistbox;
